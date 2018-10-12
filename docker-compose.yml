@@ -43,7 +43,7 @@ services:
       - TOKEN=CHANGE_THIS
   
   oj-backend:
-    image: registry.cn-qingdao.aliyuncs.com/qcs/qcs-online-judge-front-end
+    image: registry.cn-hangzhou.aliyuncs.com/qcs/qcs_test
     container_name: oj-backend
     restart: always
     depends_on:
